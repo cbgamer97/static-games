@@ -13,7 +13,8 @@ const classes = [
         stamina: 12,
         intellect: 5,
         haste: 9,
-        agility: 7
+        agility: 7,
+        armor: 0
     },
     {
         name: "Wizard",
@@ -24,7 +25,8 @@ const classes = [
         stamina: 10,
         intellect: 15,
         haste: 9,
-        agility: 4
+        agility: 4,
+        armor: 0
     },
     {
         name: "Ranger",
@@ -35,7 +37,8 @@ const classes = [
         stamina: 12,
         intellect: 9,
         haste: 12,
-        agility: 12
+        agility: 12,
+        armor: 0
     },
     {
         name: "Rogue",
@@ -46,7 +49,8 @@ const classes = [
         stamina: 9,
         intellect: 6,
         haste: 15,
-        agility: 18
+        agility: 18,
+        armor: 0
     },
     {
         name: "Cleric",
@@ -57,7 +61,8 @@ const classes = [
         stamina: 10,
         intellect: 12,
         haste: 11,
-        agility: 4
+        agility: 4,
+        armor: 0
     },
     {
         name: "Barbarian",
@@ -68,13 +73,27 @@ const classes = [
         stamina: 15,
         intellect: 3,
         haste: 7,
-        agility: 4
+        agility: 4,
+        armor: 0
     }
 ]
 
 // WEARABLES
 
-const equips = [
-
+const head = [
+    {
+        name: '',
+        armorType: 'Mail',
+        armor: 20,
+        strength: 3,
+        stamina: 2
+    },
+    {
+        name: '',
+        armorType: 'Mail',
+        armor: 20,
+        strength: 3,
+        stamina: 2
+    }
 ]
 
